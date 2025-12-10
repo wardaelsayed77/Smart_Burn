@@ -1,5 +1,6 @@
 # Smart_Burn
 🏃‍♂️ SmartBurn: AI-Based Calorie Burn Prediction 🔥
+
 💡 Introduction
 
 In today’s world, where health and fitness awareness continues to grow, tracking the number of calories burned during physical exercise has become essential.
@@ -7,7 +8,7 @@ Many individuals rely on wearable devices such as FitBit or smartwatches to esti
 
 SmartBurn aims to provide an intelligent and accessible alternative by utilizing Machine Learning (ML) algorithms to predict calories burned based on exercise data such as duration, heart rate, weight, and gender. This approach offers a more accurate and convenient method for monitoring physical activity without the need for costly hardware or specialized fitness devices.
 
-❗ Problem Statement
+❗Problem Statement
 
 Most existing calorie tracking systems rely on wearable smart devices or advanced gym equipment, which are often expensive.
 
@@ -114,6 +115,56 @@ After completing all fields, click “Predict Calories” for the model to proce
 
 SmartBurn also provides interactive Power BI dashboards for visualizing workout data and calorie predictions, helping users and trainers monitor trends and performance.
 ![visualization](https://github.com/user-attachments/assets/2ada3cbb-9d03-491f-ae46-f7c8a167d87d)
+📊 SmartBurn Dashboard: AI-Based Calorie Burn Prediction Data Analysis
+
+This dashboard provides a comprehensive analysis of the dataset used to train the SmartBurn calorie prediction model, offering insights into customer demographics and activity patterns.
+
+📝 Summary of Findings
+
+Total Records: 15,000 customers
+
+Average Age: 43 years
+
+Gender Split: 50.35% Female, 49.65% Male (relatively balanced)
+
+Average Activity Duration: 15.53 minutes
+
+Average Heart Rate: 95.52 bpm
+
+Key Insight:
+The line chart shows a strong positive correlation: as Duration increases, both Average Heart Rate and Average Calories Burned rise proportionally. This confirms the core relationship that the prediction model relies on.
+
+📈 Detailed Component Explanation
+
+KPIs (Top Row) 🏷️
+
+Shows total dataset size (15K) and mean values for Age (43), Duration (15.53 mins), and Heart Rate (95.52 bpm)
+
+Total Customers by Gender 🍩
+
+Donut chart shows highly balanced data: 50.35% Female vs 49.65% Male
+
+Total Customers by Age 📊
+
+Bar chart shows most users are younger adults, primarily between 20–30 years old
+
+Customers by Body Temp & Weight 🌡️⚖️
+
+Dual line chart shows distribution of customer count across weights. Average Body Temp remains stable (~40.0–40.2 °C)
+
+Average Heart Rates & Calories by Duration ❤️🔥
+
+Line chart demonstrates a direct positive linear relationship: as Duration increases, both Heart Rate and Calories Burned increase
+
+⚙️ Interactive Elements
+
+Right side features interactive Slicers/Filters to explore data subsets based on:
+
+Duration
+
+Age
+
+Gender
 
 ✨ Features
 
